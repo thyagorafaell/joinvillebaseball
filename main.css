@@ -31,7 +31,8 @@ img {
 }
 
 h1 {
-    height: 55px;
+    line-height: 1;
+    min-height: 55px;
     margin-top: 12px;
     font-size: 36px;
     font-family: CollegeBlock, Arial, Helvetica, sans-serif;
