@@ -37,15 +37,14 @@
 </head>
 <body>
     <section class="app">
-        <header>
-            <img src="./logo.png" alt="Joinville Baseball" width="200" height="200" />
-            <h1>JOINVILLE BASEBALL</h1>
-        </header>
-        <main>
-            <!-- <section class="banner-camiseta"></section> -->
+        <header class="header">
+            <section class="presentation">
+                <img class="logo" src="./logo.png" alt="Joinville Baseball" width="200" height="200" />
+                <h1>JOINVILLE BASEBALL</h1>
+            </section>
             <section class="links">
-                <ul>
-                    <!-- <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeB1MiAI6kKoZRkSa_850CBAju2i0TKvdlMbb3boIJ147T00Q/viewform">Camisetas</a></li> -->
+                <ul class="link-list">
+                    <li id="link-camiseta-form"><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeB1MiAI6kKoZRkSa_850CBAju2i0TKvdlMbb3boIJ147T00Q/viewform">Camisetas</a></li>
                     <li><a target="_blank" href="https://chat.whatsapp.com/L0ziyhldvOtErpHXXxeRnv">Agendar um treino</a></li>
                     <li><a target="_blank" href="https://www.google.com/maps/d/u/0/viewer?mid=1L5zITXYnhqrsPwQe_hJQC3BDUVw">Nosso campo</a></li>
                     <li><a target="_blank" href="https://facebook.com/joinvillebaseball">Facebook</a></li>
@@ -53,6 +52,23 @@
                     <li><a href="https://twitter.com/jlle_baseball">Twitter</a></li>
                     <li><a target="_blank" href="mailto:joinvillebaseball@gmail.com">Email</a></li>
                 </ul>
+            </section>
+        </header>
+        <main>
+            <section class="banner-camiseta">
+                <section class="banner-camiseta__form">
+                    <iframe width="640" height="100%" frameborder="0" marginheight="0" marginwidth="0" src="https://docs.google.com/forms/d/e/1FAIpQLSeB1MiAI6kKoZRkSa_850CBAju2i0TKvdlMbb3boIJ147T00Q/viewform?embedded=true"></iframe>
+                </section>
+                <section class="banner-camiseta__data">
+                    <section class="banner-camiseta__data--text">
+                        <span class="combo-text">
+                            Combo camiseta <br />
+                            + adesivo: <br />
+                            <em class="price">R$ <strong>60</strong>,00</em>
+                        </span>
+                    </section>
+                    <img src="./combo.png" alt="Camiseta Joinville Baseball" width="400" />
+                </section>
             </section>
         </main>
         <footer class="footer">

@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-    max-width: 400px;
+    background-color: rgb(8, 26, 62);
     margin: auto;
     padding: 24px;
     text-align: center;
@@ -52,4 +52,96 @@ a {
 
 footer {
     font-size: 10px;
+}
+
+#link-camiseta-form {
+    display: block;
+}
+
+.banner-camiseta {
+    display: none;
+}
+
+.combo-text {
+    max-width: 190px;
+    font-size: 22px;
+}
+
+.links {
+    padding-top: 24px;
+}
+
+.price {
+    font-family: CollegeBlock, Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-style: normal;
+}
+
+.price strong {
+    font-size: 64px;
+}
+
+.banner-camiseta__data {
+    flex: 1;
+    padding-right: 24px;
+
+}
+
+.banner-camiseta__data--text {
+    width: 100%;
+    text-align: right;
+}
+
+@media (min-width: 1024px) {
+    body {
+        background: url(./bg.jpg);
+        background-size: cover;
+        backdrop-filter: blur(2px);
+        background-position-y: 20%;
+    }
+
+    .app {
+        background-color: rgb(8, 26, 62, 0.8);
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+    }
+
+    .presentation {
+        flex: 0;
+    }
+
+    .logo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .links {
+        padding-top: 0;
+        padding-left: 24px;
+        flex: 2 1 0;
+    }
+
+    #link-camiseta-form {
+        display: none;
+    }
+
+    .banner-camiseta {
+        display: flex;
+        width: 100vw;
+        max-width: 1240px;
+    }
+
+    .link-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 12px;
+        grid-gap: 12px;
+        grid-template-areas:
+            ". . ."
+            ". . .";
+    }
 }
